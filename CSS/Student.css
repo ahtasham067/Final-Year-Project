@@ -1,0 +1,27 @@
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+.fontcolorwhite
+            {
+                color:white;
+            }
+.backgroungcolor
+{
+	background-color:#1d274a;
+} 
+.formwidthfontcolor
+{
+	max-width:850px;
+	background-color:white;
+	border:8px solid #acb8c4;
+}           
+.footerbackgroundcolor
+{
+	height: 60px; 
+	background-color:#0e1323;
+}
+.footertextcolor
+{
+	 color: white;
+}
