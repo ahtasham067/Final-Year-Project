@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FYPOnline Student Portal
+        </title>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+                    </script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+                    </script>
+                    <script type="JavaScript/Student.js">
+                    </script>
+                    <link href="CSS/Student.css" rel="stylesheet" type="text/css">
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+                        </script>
+                    </link>
+                </link>
+            </meta>
+        </meta>
+    </head>
+</html>
+<link href="JavaScript/TeacherIndex.js" rel="stylesheet" type="text/css">
+</link>
+<link href="CSS/TeacherIndex.css" rel="stylesheet" type="text/css">
+</link>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript">
+    </script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
+</link>
+<body>
+    <div class="container backgroungcolor">
+        <div class="row justify-content-md-center">
+            <div class="cl">
+                <img alt="Responsive image" class="img-fluid" src="cuis_bg5.png">
+                </img>
+            </div>
+        </div>
+        <hr class="style1">
+            <div class="container rounded formwidthfontcolor" id="AddIdea">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            FYP Meeting Form
+                        </h1>
+                    </div>
+                    <!--Project ID and Title-->
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputSuperviser">
+                                ProjectID
+                            </label>
+                            <select class="form-control" id="inputSuperviser">
+                                <option selected="">
+                                    Choose...
+                                </option>
+                                <option>
+                                    ...
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputTitle">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Title
+                            </label>
+                            <input class="form-control" id="inputTitle" placeholder="*Project Title" type="text">
+                            </input>
+                        </div>
+                    </div>
+                    <!--SuperViser and CoSuperviser -->
+                    <div class="form-row">
+                        <div class="row mb-3 col-md-6">
+                            <div class="col-sm ">
+                                <span>
+                                    Start Date:
+                                </span>
+                                <input id="startDate"/>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputCoSuperviser">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Time
+                            </label>
+                            <select class="form-control" id="inputCoSuperviser">
+                                <option selected="">
+                                    Choose...
+                                </option>
+                                <option>
+                                    ...
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--Project Evaluation-->
+                    <div class="form-row">
+                        <label>
+                            <strong>
+                                Team Members:
+                            </strong>
+                        </label>
+                    </div>
+                    <!--First Member-->
+                    <div class="form-row">
+                        <label>
+                            Member 1:
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCity">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                RegNo
+                            </label>
+                            <input class="form-control" id="inputCity" placeholder="*RegNo" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputName">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Name
+                            </label>
+                            <input class="form-control" id="inputName" placeholder="*Name" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputSemester">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Semester
+                            </label>
+                            <select class="form-control" id="inputSemester">
+                                <option selected="">
+                                    Choose...
+                                </option>
+                                <option>
+                                    ...
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-check col-md-6">
+                            <input checked="" class="form-check-input ml-1" id="exampleRadios1" name="exampleRadios" type="radio" value="option1">
+                                <label class="form-check-label ml-4" for="exampleRadios1">
+                                    Present
+                                </label>
+                            </input>
+                        </div>
+                        <div class="form-check col-md-6">
+                            <input class="form-check-input ml-1" id="exampleRadios2" name="exampleRadios" type="radio" value="option2">
+                                <label class="form-check-label ml-4" for="exampleRadios2">
+                                    Absent
+                                </label>
+                            </input>
+                        </div>
+                    </div>
+                         <!--Comments-->
+                    <div class="form-group">
+                        <label for="inputSummery/Abstract ">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Comments (if any)
+                        </label>
+                        <textarea class="form-control" id="Summery/Abstract" name="text" rows="5">
+                        </textarea>
+                    </div>
+                    <!--Second members-->
+                    <div class="form-row">
+                        <label>
+                            Member 2:
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCity">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                RegNo
+                            </label>
+                            <input class="form-control" id="inputCity" placeholder="*RegNo" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputName">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Name
+                            </label>
+                            <input class="form-control" id="inputName" placeholder="*Name" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputSemester">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Semester
+                            </label>
+                            <select class="form-control" id="inputSemester">
+                                <option selected="">
+                                    Choose...
+                                </option>
+                                <option>
+                                    ...
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-check col-md-6">
+                            <input checked="" class="form-check-input ml-1" id="exampleRadios1" name="exampleRadios" type="radio" value="option1">
+                                <label class="form-check-label ml-4" for="exampleRadios1">
+                                    Present
+                                </label>
+                            </input>
+                        </div>
+                        <div class="form-check col-md-6">
+                            <input class="form-check-input ml-1" id="exampleRadios2" name="exampleRadios" type="radio" value="option2">
+                                <label class="form-check-label ml-4" for="exampleRadios2">
+                                    Absent
+                                </label>
+                            </input>
+                        </div>
+                    </div>
+                         <!--Comments-->
+                    <div class="form-group">
+                        <label for="inputSummery/Abstract ">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Comments (if any)
+                        </label>
+                        <textarea class="form-control" id="Summery/Abstract" name="text" rows="5">
+                        </textarea>
+                    </div>
+                    <!--Third Member-->
+                    <div class="form-row">
+                        <label>
+                            Member 3:
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCity">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                RegNo
+                            </label>
+                            <input class="form-control" id="inputCity" placeholder="*RegNo" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputName">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Name
+                            </label>
+                            <input class="form-control" id="inputName" placeholder="*Name" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputSemester">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Semester
+                            </label>
+                            <select class="form-control" id="inputSemester">
+                                <option selected="">
+                                    Choose...
+                                </option>
+                                <option>
+                                    ...
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-check col-md-6">
+                            <input checked="" class="form-check-input ml-1" id="exampleRadios1" name="exampleRadios" type="radio" value="option1">
+                                <label class="form-check-label ml-4" for="exampleRadios1">
+                                    Present
+                                </label>
+                            </input>
+                        </div>
+                        <div class="form-check col-md-6">
+                            <input class="form-check-input ml-1" id="exampleRadios2" name="exampleRadios" type="radio" value="option2">
+                                <label class="form-check-label ml-4" for="exampleRadios2">
+                                    Absent
+                                </label>
+                            </input>
+                        </div>
+                    </div>
+                         <!--Comments-->
+                    <div class="form-group">
+                        <label for="inputSummery/Abstract ">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Comments (if any)
+                        </label>
+                        <textarea class="form-control" id="Summery/Abstract" name="text" rows="5">
+                        </textarea>
+                    </div>
+                    <!--Forth Member-->
+                    <div class="form-row">
+                        <label>
+                            Member 4:
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputCity">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                RegNo
+                            </label>
+                            <input class="form-control" id="inputCity" placeholder="*RegNo" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputName">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Name
+                            </label>
+                            <input class="form-control" id="inputName" placeholder="*Name" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputSemester">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Semester
+                            </label>
+                            <select class="form-control" id="inputSemester">
+                                <option selected="">
+                                    Choose...
+                                </option>
+                                <option>
+                                    ...
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-check col-md-6">
+                            <input checked="" class="form-check-input ml-1" id="exampleRadios1" name="exampleRadios" type="radio" value="option1">
+                                <label class="form-check-label ml-4" for="exampleRadios1">
+                                    Present
+                                </label>
+                            </input>
+                        </div>
+                        <div class="form-check col-md-6">
+                            <input class="form-check-input ml-1" id="exampleRadios2" name="exampleRadios" type="radio" value="option2">
+                                <label class="form-check-label ml-4" for="exampleRadios2">
+                                    Absent
+                                </label>
+                            </input>
+                        </div>
+                    </div>
+                         <!--Comments-->
+                    <div class="form-group">
+                        <label for="inputSummery/Abstract ">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Comments (if any)
+                        </label>
+                        <textarea class="form-control" id="Summery/Abstract" name="text" rows="5">
+                        </textarea>
+                    </div>
+                    <!--Comments-->
+                    <div class="form-group">
+                        <label for="inputSummery/Abstract ">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Over All Comments of the Supervisor (if any)
+                        </label>
+                        <textarea class="form-control" id="Summery/Abstract" name="text" rows="5">
+                        </textarea>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row mt-3">
+                <div class="col footerbackgroundcolor">
+                    <div class="text-center mt-3 footertextcolor">
+                        <a href="#">
+                            FYPOnline,
+                        </a>
+                        Principal Seat © 2018-COMSATS ®
+                    </div>
+                </div>
+            </div>
+        </hr>
+    </div>
+</body>
+<!-- Date Picker Range -->
+<script>
+    var today = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
+        $('#startDate').datepicker({
+            uiLibrary: 'bootstrap4',
+            iconsLibrary: 'fontawesome',
+            minDate: today,
+            maxDate: function () {
+                return $('#endDate').val();
+            }
+        });
+        $('#endDate').datepicker({
+            uiLibrary: 'bootstrap4',
+            iconsLibrary: 'fontawesome',
+            minDate: function () {
+                return $('#startDate').val();
+            }
+        });
+</script>
