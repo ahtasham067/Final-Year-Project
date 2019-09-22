@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FYPOnline Student Portal
+        </title>
+        <meta charset="utf-8">
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+                <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+                    </script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+                    </script>
+                    <script type="JavaScript/Student.js">
+                    </script>
+                    <link href="CSS/Student.css" rel="stylesheet" type="text/css">
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+                        </script>
+                    </link>
+                </link>
+            </meta>
+        </meta>
+    </head>
+</html>
+<link href="JavaScript/TeacherIndex.js" rel="stylesheet" type="text/css">
+</link>
+<link href="CSS/TeacherIndex.css" rel="stylesheet" type="text/css">
+</link>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript">
+    </script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
+</link>
+<body>
+    <div class="container backgroungcolor">
+        <div class="row justify-content-md-center">
+            <div class="cl">
+                <img alt="Responsive image" class="img-fluid" src="cuis_bg5.png">
+                </img>
+            </div>
+            <div class="col text-center mt-5">
+                <div class="btn-group">
+                    <a class="btn btn-outline-light dropdown-toggle" data-toggle="dropdown" href="" id="dLabel" role="button">
+                        UpdateMarks
+                    </a>
+                    <ul aria-labelledby="dropdownMenu" class="dropdown-menu" role="menu">
+                        <li>
+                            <a class="dropdown-item UpdateSupervisorMarks" href="#">
+                                Supervisor
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item UpdateInternalMarks" href="#">
+                                Internal
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item UpdateExternalMarks" href="#">
+                                External
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item UpdateProposalMarks" href="#">
+                                Proposal
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item UpdateSrsMarks" href="#">
+                                SRS
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item UpdateSddMarks" href="#">
+                                SDD
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="style1">
+        <!--Supervisor Marks-->
+            <div class="container rounded formwidthfontcolor" id="UpdateSupervisorMarksId">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            Update Supervisor Marks
+                        </h1>
+                    </div>
+                    <!--Documentation-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Documentation
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Implementation-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Implementation
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Fyp Knowledge-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Fyp Knowledge
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Presentation On Skill-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Presentation On Skill
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--OverAll Contribution-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            OverAll Contribution
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Total Marks-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Total Marks
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--Internal Marks-->
+            <div class="container rounded formwidthfontcolor" id="UpdateInternalMarksId">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            Update Internal Marks
+                        </h1>
+                    </div>
+                    <!--Documentation-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Documentation
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Implementation-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Implementation
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Fyp Knowledge-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Fyp Knowledge
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Presentation On Skill-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Presentation On Skill
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Total Marks-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Total Marks
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--External Marks-->
+            <div class="container rounded formwidthfontcolor" id="UpdateExternalMarksId">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            Update External Marks
+                        </h1>
+                    </div>
+                    <!--Documentation-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Documentation
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Implementation-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Implementation
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Fyp Knowledge-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Fyp Knowledge
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Presentation On Skill-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Presentation On Skill
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Total Marks-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Total Marks
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--Proposal Marks-->
+            <div class="container rounded formwidthfontcolor" id="UpdateProposalMarksId">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            Update Proposal Marks
+                        </h1>
+                    </div>
+                    <!--Idea-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Idea
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Scope-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Scope
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Domain Knowledge-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Domain Knowledge
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Documentation Completion-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Documentation Completion
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Total Marks-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Total Marks
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--SRS Marks-->
+            <div class="container rounded formwidthfontcolor" id="UpdateSrsMarksId">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            Update SRS Marks
+                        </h1>
+                    </div>
+                    <!--Functional Requirements -->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Functional Requirements
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Non-Functional Requirements-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                           Non-Functional Requirements
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--UseCases-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            UseCases
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Total Marks-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Total Marks
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--SDD Marks-->
+            <div class="container rounded formwidthfontcolor" id="UpdateSddMarksId">
+                <form>
+                    <div class="text-center">
+                        <h1>
+                            Update SDD Marks
+                        </h1>
+                    </div>
+                    <!--Sequence Diagram -->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Sequence Diagram
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Activity Diagram-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                           Activity Diagram
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Class Diagram-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Class Diagram
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                      <!--Data Model-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Data Model
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                     <!--Other Diagram as Requirements-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Other Diagram as Requirements
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Total Marks-->
+                    <div class="form-group">
+                        <label for="inputTitle">
+                            <span class="text-danger">
+                                *
+                            </span>
+                            Total Marks
+                        </label>
+                        <input class="form-control" id="inputTitle" placeholder="" type="text">
+                        </input>
+                    </div>
+                    <!--Buttons Save and Documents Latter-->
+                    <div class="form-row">
+                        <div class="form-group text-right">
+                            <button class="btn btn-primary" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row mt-3">
+                <div class="col footerbackgroundcolor">
+                    <div class="text-center mt-3 footertextcolor">
+                        <a href="#">
+                            FYPOnline,
+                        </a>
+                        Principal Seat © 2018-COMSATS ®
+                    </div>
+                </div>
+            </div>
+        </hr>
+    </div>
+</body>
+<!-- Dropdown move to next page -->
+<script type="text/javascript">
+    $(document).ready(function () {
+                $("#UpdateSupervisorMarksId").show();
+                $("#UpdateInternalMarksId").hide();
+                $("#UpdateExternalMarksId").hide();
+                $("#UpdateProposalMarksId").hide();
+                $("#UpdateSrsMarksId").hide();
+                $("#UpdateSddMarksId").hide();
+            });
+            $(".UpdateSupervisorMarks").click(function () {
+                 $("#UpdateSupervisorMarksId").show();
+                $("#UpdateInternalMarksId").hide();
+                $("#UpdateExternalMarksId").hide();
+                $("#UpdateProposalMarksId").hide();
+                $("#UpdateSrsMarksId").hide();
+                $("#UpdateSddMarksId").hide();
+            });
+            $(".UpdateInternalMarks").click(function () {
+                $("#UpdateSupervisorMarksId").hide();
+                $("#UpdateInternalMarksId").show();
+                $("#UpdateExternalMarksId").hide();
+                $("#UpdateProposalMarksId").hide();
+                $("#UpdateSrsMarksId").hide();
+                $("#UpdateSddMarksId").hide();
+            });
+            $(".UpdateExternalMarks").click(function () {
+                $("#UpdateSupervisorMarksId").hide();
+                $("#UpdateInternalMarksId").hide();
+                $("#UpdateExternalMarksId").show();
+                $("#UpdateProposalMarksId").hide();
+                $("#UpdateSrsMarksId").hide();
+                $("#UpdateSddMarksId").hide();
+            });
+            $(".UpdateProposalMarks").click(function () {
+                $("#UpdateSupervisorMarksId").hide();
+                $("#UpdateInternalMarksId").hide();
+                $("#UpdateExternalMarksId").hide();
+                $("#UpdateProposalMarksId").show();
+                $("#UpdateSrsMarksId").hide();
+                $("#UpdateSddMarksId").hide();
+            });
+            $(".UpdateSrsMarks").click(function () {
+                 $("#UpdateSupervisorMarksId").hide();
+                $("#UpdateInternalMarksId").hide();
+                $("#UpdateExternalMarksId").hide();
+                $("#UpdateProposalMarksId").hide();
+                $("#UpdateSrsMarksId").show();
+                $("#UpdateSddMarksId").hide();
+            });
+            $(".UpdateSddMarks").click(function () {
+                 $("#UpdateSupervisorMarksId").hide();
+                $("#UpdateInternalMarksId").hide();
+                $("#UpdateExternalMarksId").hide();
+                $("#UpdateProposalMarksId").hide();
+                $("#UpdateSrsMarksId").hide();
+                $("#UpdateSddMarksId").show();
+            });
+</script>
