@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <title>
             FYPOnline Student Portal
         </title>
@@ -20,17 +20,16 @@
                 </link>
             </meta>
         </meta>
+        <link href="JavaScript/TeacherIndex.js" rel="stylesheet" type="text/css">
+        </link>
+        <link href="CSS/TeacherIndex.css" rel="stylesheet" type="text/css">
+        </link>
+        <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+            <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript">
+            </script>
+            <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
+        </link>
     </head>
-</html>
-<link href="JavaScript/TeacherIndex.js" rel="stylesheet" type="text/css">
-</link>
-<link href="CSS/TeacherIndex.css" rel="stylesheet" type="text/css">
-</link>
-<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
-    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript">
-    </script>
-    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
-</link>
 <body>
     <div class="container backgroungcolor">
         <div class="row justify-content-md-center">
@@ -44,7 +43,7 @@
                 <form>
                     <div class="text-center">
                         <h1>
-                            Proposal Evaluation Form <br>(Internals)
+                            Supervisor Evaluation
                         </h1>
                     </div>
                     <!--Project ID and Title-->
@@ -168,6 +167,27 @@
                             </input>
                         </div>
                     </div>
+                    <!--Project Completion-->
+                    <div>
+                        <div class="mt-3">
+                            <h6>
+                                Completion of the project
+                            </h6>
+                        </div>
+
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col">
+                            <label for="inputTitle">
+                                <span class="text-danger">
+                                    *
+                                </span>
+                                Please mention the completion of FYP in percentage
+                            </label>
+                            <input class="form-control" id="inputTitle" placeholder="*Project Title" type="text">
+                            </input>
+                        </div>
+                    </div>
                     <!--Individual Evaluation-->
                     <div>
                         <span>
@@ -187,12 +207,12 @@
       <th scope="col">Sr No</th>
       <th scope="col">Reg.No</th>
       <th scope="col">Student Name</th>
-      <th scope="col">Idea(Max Marks=5)</th>
-      <th scope="col">Scope(Max Marks=5)</th>
-      <th scope="col">Domain Knowledge(Max Marks=5)</th>
-      <th scope="col">Documentation(Completion+Quality)(Max Marks=5)</th>
-      <th scope="col">Total Marks(20)</th>
-      
+      <th scope="col">Documentation(Quality+Completeness)(Max Marks=5)</th>
+      <th scope="col">Implementation on Knowledge(Coding,etc.)(Max Marks=15)</th>
+      <th scope="col">FYP Knowledge(Max Marks=5)</th>
+      <th scope="col">Presentation on Skill(Max Marks=5)</th>
+      <th scope="col">Overall Contribution(Max Marks=10)</th>
+      <th scope="col">Total Marks(40)</th>
     </tr>
   </thead>
   <tbody>
@@ -204,6 +224,8 @@
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
+      <td>Mark</td>
+      <td>Mark</td>
     </tr>
      <tr>
       <th scope="row">2</th>
@@ -213,15 +235,19 @@
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
+      <td>Mark</td>
+      <td>Mark</td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Mark</td>
       <td>Otto</td>
+      <td>Mark</td>
       <td>@mdo</td>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
+      <td>Mark</td>
     </tr>
   </tbody>
 </table>
@@ -261,3 +287,4 @@
         </hr>
     </div>
 </body>
+</html>
